@@ -30,7 +30,7 @@ nav p{
 
 .cardContainer{
   display: flex;
-  margin: 60px 60px;
+  margin: 60px 20px;
 }
 
 .cardContainer img{
@@ -41,6 +41,8 @@ nav p{
 
 .cardInfo{
   margin-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cardInfo h2{
