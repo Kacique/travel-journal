@@ -1,7 +1,13 @@
-import "./App.css";
+import Main from "./Main";
+import Nav from "./Nav";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="container">
+      <Nav />
+      <Main />
+    </div>
+  );
 }
 
 export default App;
